@@ -1,7 +1,11 @@
 <template>
-  <div class="hello">
-    <my-button>It Works!</my-button>
-    <my-button>😀 😎 👍 💯</my-button>
+  <div>
+    <div class="hello">
+      <my-button>It Works!</my-button>
+      <my-button>😀 😎 👍 💯</my-button>
+    
+    </div>
+    <my-table :values="msg" />
   </div>
 </template>
 

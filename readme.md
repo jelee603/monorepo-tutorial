@@ -79,6 +79,7 @@ $ leran run build
 ```
 
 $ npm install
+$ lerna link convert
 $ npm run storybook
 http://localhost:6006/
 

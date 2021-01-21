@@ -23,5 +23,13 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@mylibrary/my-button": "file:packages/Button",
+    "@mylibrary/my-table": "file:packages/JTableRow",
+    "my-app": "file:packages/my-app",
+    "pack-a": "file:packages/pack-a",
+    "pack-b": "file:packages/pack-b",
+    "pack-react": "file:packages/pack-react"
   }
 }
