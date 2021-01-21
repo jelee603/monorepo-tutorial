@@ -1,0 +1,9 @@
+{
+  "name": "@mylibrary/my-table",
+  "version": "0.1.0",
+  "description": "Just a simple button component",
+  "module": "src/index.js",
+  "scripts": {
+    "transpile": "vue-cli-service build --target lib ./src/index.js"
+  }
+}

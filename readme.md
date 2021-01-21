@@ -68,6 +68,62 @@ $ lerna bootstrap
 각 패키지들의 npm 명령어를 실행합니다.
 
 ```
+$ lerna link convert
+$ npm install
 $ lerna run start
 $ leran run build
 ```
+
+### Lerna 로 StoryBook 구성하기
+실행방법 
+```
+
+$ npm install
+$ npm run storybook
+http://localhost:6006/
+
+$ lerna run serve
+http://localhost:8080/
+```
+
+storybook 구성도
+
+```
+├─Button
+│  │ package.json
+│  │
+│  └─src
+│       Button.stories.js
+│       Button.vue
+│       index.js
+│
+├─JTableRow
+│  │ package.json
+│  │
+│  └─src
+│       index.js
+│       JTableRow.stories.js
+│       JTableRow.vue
+│
+└─my-app    
+    │  babel.config.js
+    │  package.json    
+    │
+    ├─public
+    │      favicon.ico
+    │      index.html
+    │
+    └─src
+        │  App.vue
+        │  main.js
+        │
+        ├─assets
+        │      logo.png
+        │
+        └─components
+                HelloWorld.vue
+
+
+```
+
+
